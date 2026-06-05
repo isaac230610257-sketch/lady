@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #d7ccc8;
+    color: black;
+}
+
+header {
+    background-image: url(B3.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px;
+    border: 3px solid black;
+    color: white;
+}
+
+#titulo {
+    font-size: 40px;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav {
+    background-image: url(T1.jpg);
+    background-size: cover;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #6d4c41;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contenedor {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+article {
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+}
+
+section {
+    background-image: url(PÑ1.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+section p {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+
+aside {
+    flex: 1;
+    background-image: url(I2.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #4e342e;
+}
+
+h3 {
+    color: #6d4c41;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th {
+    background-color: #a1887f;
+    padding: 10px;
+}
+
+td {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+
+footer {
+    background-image: url(L1.webp);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid black;
+    color: white;
+}
